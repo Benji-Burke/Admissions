@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to Benjamins Website</title>  
+<style type="text/css">
+    body {
+      text-align: left;
+      color: black;
+      background-color: tan;
+    }
+    p {
+      font-size: 22px;
+      font-stretch: semi-expanded;
+      text-align: justify;
+      font-family: "Lucida Console";
+    }
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    header{
+      text-align: center;
+      font-family: "Courier New";
+    }
+    h2{
+      font-style: italic;
+    }
+    ul{
+      font-size: 18px;
+      font-family: "Lucida Console"
+    }
+    .color{
+      color: blue;
+    }
+    .Bruce{
+      float: middle;
+      width: 7%;
+    }
+    .number{
+      font-weight: bold;
+    }
+    .email{
+      font-weight: bold;
+    }
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>The life of Ben Burke</h1>
+  <img src="https://imgur.com/243Gc0z.jpg" class="center" alt="Salt Flats Bolivia">
+</header>
+
+<article>
+<h2>Introductions</h2>
+<p>Hello! My name is Ben, my friends call me Benji, thank you for checking out my website! Here I want to talk about my early life, why I decided to pursue a career in computer science and what my goals are for the future!</p></article>
+
+<article>
+<h2>Early Life</h2>
+<p>Where to begin? Well, I was born on March 1st, 1993, I'm 25 soon to be 26(gosh the horror). I was born in Bolivia, adopted since birth and has lived in the United States my whole life. I grew up in a small town called Darien, its on the Connecticut coast stuck in between the cities of Norwalk and Stamford. Growing up I was into many hobbies including, soccer, chess, collecting baseball cards, and a weird hobby of collecting cast iron toys! I ended up loving soccer and continued playing where I eventually was recruited by a small D3 school called Averett in Virgina. I came back home after a year, attended NCC to get my associates then I transferred to Uconn at Stamford.</p>
+</article>
+
+<article>
+<h2>Why I want to pursue computer science?</h2>
+<p>The whole journey to purse computer science started a year and a half ago! It was around Thanksgiving of 2017. Bitcoin, this internet money was making healines because of reaching the 10k mark. Internet money, fake money as some call being hitting a huge milestone. I thought to myself, why is this considered a valuable resource? It's not like it's real money? 
+</p>
+</article>
+
+<article>
+<p>I soon come to find out that this was a revolution in its very early stages and I want to be part of it. I really believe that cryptocurrency but more specifically blockchain will have a huge impact on the world. How? It will change current systems to be more efficient, and will totally re-write and change current industries. Take for example real estate, or any form of insurance.</p>
+</article>
+
+<article>
+<h2>My aspirations and goals?</h2>
+<p>Yes, lets get it out of the way, I'll admit it, a big part trying to get into this industry isn't just about the passion I feel for computer science, but I also want to do it for the money! I want financial independence. Coaching has been great, but I feel stuck in place. With that being said I have huge goals beyond just the computer science industry. I believe that getting into the industry will allow me to open the door to bigger more broader opportunities.</p>
+</article>
+
+<article>
+<p>Like a lot of people I want to be able to invest, specifically in real estate, cryptocurrency, precious metals and businesses. </p></article>
+
+<h2>Fun Facts About Ben</h2>
+<ul>
+<li>My favorite color is <span class="color">Blue</span></li>
+<div class="">
+<li>I own a dog named Bruce, he is a cockapoo</li> <img src="https://imgur.com/9m1vUIt.jpg" alt="Bruce" width="200px" class="Bruce">
+</div>
+<li>My first car was a 2005 Volkswagen GTI</li>
+<li>My favorite superhero is Batman (Team DC)</li>
+<li>My adoptive father is a direct relative of Benjamin Franklin. Hence My name Benjamin!</li>
+<li>I only recently visited Bolivia for the first time since my birth!</li>
+<li>I am an eagle scout</li>
+</ul>
+
+<h3>Contact Me</h3>
+<p>You can contact me via Cellphone:<span class="number"> 2035597425</span>
+</p>
+<p>Or email  me at <span class="email">benjaminstevenburke@gmail.com</span></p>
+<h2>CLICK DOWN BELOW</h2>
+
+<div class="popup" onclick="myFunction()">Click me to toggle the popup that took me way too long to figure out!
+  <span class="popuptext" id="myPopup">Thank-you for considering me!</span>
+</div>
+
+<script>
+
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+
+</body>
+</html>
